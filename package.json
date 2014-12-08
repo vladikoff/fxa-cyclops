@@ -1,0 +1,15 @@
+{
+  "name": "fxa-cyclops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "intern-runner config=intern.js"
+  },
+  "author": "",
+  "license": "MPL",
+  "dependencies": {
+    "intern": "^2.2.2",
+    "request": "^2.49.0"
+  }
+}
