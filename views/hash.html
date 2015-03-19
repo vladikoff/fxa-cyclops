@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="screenshot-container">
+  {% for s in screenshots %}
+    <div class="screenshot">
+      <a class="btn btn-default s-link" href="https://saucelabs.com/tests/{{s.jobId}}">{{ s.platform }} {{ s.browserName }} {{ s.browserVersion }} {{ s.platformName }} {{ s.platformVersion }}</a>
+      {% for ids in s.ids%}
+        <a class="s-anchor" target="_blank" href="https://assets.saucelabs.com/jobs/{{s.jobId}}/{{ids}}screenshot.png">
+          <img class="img-thumbnail s-img" src="https://assets.saucelabs.com/jobs/{{s.jobId}}/{{ids}}screenshot.png" onerror='this.style.display = "none"' />
+        </a>
+      {% endfor %}
+      <hr/>
+
+    </div>
+  {% endfor %}
+</div>
+
+
+{% endblock %}

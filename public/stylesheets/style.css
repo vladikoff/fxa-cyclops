@@ -1,0 +1,32 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.s-img {
+  width: 350px;
+}
+
+.screenshot-container {
+padding: 20px 20px;
+}
+
+.screenshot {
+  clear: both;
+  position: relative;
+}
+
+a.s-anchor {
+  margin-top: 20px;
+  display: block;
+  float: left;
+}
+
+a.s-link {
+  position: absolute;
+  font-size: 30px;
+}
+
