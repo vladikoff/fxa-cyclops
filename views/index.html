@@ -1,14 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div class="container">
+<div class="container container-index">
 <div class="row">
   <div class="jumbotron">
+    <img src="/images/logo.png" />
     <h1>Select Deployment</h1>
-    <ul>
-      <li><a class="btn btn-default btn-lg btn-block btn-primary" href="/env/latest">Latest</a></li>
-      <li><a class="btn btn-default btn-lg btn-block btn-primary" href="/env/stable">Stable</a></li>
-      <li><a class="btn btn-default btn-lg btn-block btn-primary" href="/env/ux">UX branch</a></li>
+      <a class="btn btn-default btn-lg btn-block btn-primary" href="/env/latest">Latest</a>
+      <a class="btn btn-default btn-lg btn-block btn-primary" href="/env/stable">Stable</a>
+      <a class="btn btn-default btn-lg btn-block btn-primary" href="/env/ux">UX branch</a>
     </ul>
   </div>
 

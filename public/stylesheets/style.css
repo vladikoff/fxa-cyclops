@@ -10,6 +10,10 @@ a {
   width: 350px;
 }
 
+.container-index {
+  text-align: center;
+}
+
 .screenshot-container {
 padding: 20px 20px;
 }
@@ -30,3 +34,9 @@ a.s-link {
   font-size: 30px;
 }
 
+.logo {
+  width: 55px;
+  margin-top: -20px;
+  margin-right: 20px;
+  float: left;
+}

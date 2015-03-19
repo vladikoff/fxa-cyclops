@@ -4066,6 +4066,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 60px;
   margin-bottom: 20px;
+  padding-top: 5px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
